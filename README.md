@@ -6,5 +6,5 @@
 
 ```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
-
+```
 ### 2. To launch the application use the command `make run`
