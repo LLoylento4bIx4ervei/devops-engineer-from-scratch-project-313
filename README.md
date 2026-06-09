@@ -1,5 +1,8 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/LLoylento4bIx4ervei/devops-engineer-from-scratch-project-313/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/LLoylento4bIx4ervei/devops-engineer-from-scratch-project-313/actions)
+
+[![CI](https://github.com/LLoylento4bIx4ervei/devops-engineer-from-scratch-project-313/actions/workflows/ci.yml/badge.svg)](https://github.com/LLoylento4bIx4ervei/devops-engineer-from-scratch-project-313/actions/workflows/ci.yml)
+
 ### 1. Make sure you have it installed `uv`
 
 Если у вас ещё нет `uv`, установите его одной командой (Linux/macOS):

@@ -1,0 +1,9 @@
+line-length = 88
+target-version = "py312"
+
+[lint]
+select = ["E", "F", "W", "C90", "I", "N", "UP", "B", "A", "C4", "SIM", "RET", "PT", "RUF"]
+ignore = ["E501"]  # игнорируем слишком длинные строки, оставляем автоформатирование
+
+[lint.isort]
+known-first-party = ["main"]

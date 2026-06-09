@@ -1,8 +1,18 @@
 [project]
 name = "ping-app"
 version = "0.1.0"
-dependencies = [
-    "fastapi>=0.115.0",
-    "uvicorn[standart]>=0.34.0",
-]
+description = "Simple /ping endpoint"
+readme = "README.md"
 requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.11",
+    "uvicorn[standard]>=0.34.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.5",
+    "ruff>=0.9.10",
+    "httpx>=0.28.1",
+]
+
